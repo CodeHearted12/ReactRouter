@@ -13,9 +13,9 @@ class BaseLayout extends Component {
        <NavLink to="/create" activeStyle={{activeStyle:"white"}}>Create Post</NavLink>
            <NavLink to="/post">Show Post</NavLink>
          </nav>
-
+      </div>
          {this.props.children}
-         </div>
+      </div>
        )
      }
    }
